@@ -1,0 +1,21 @@
+/* Enable smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh; /* Full screen height for each section */
+  padding: 20px;
+}
+
+#home {
+  background-color: #ffffff;
+}
+
+#services {
+  background-color: #ffffff;
+}
+
+#contact {
+  background-color: #ffffff;
+}

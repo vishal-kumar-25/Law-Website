@@ -1,0 +1,76 @@
+/* Container for the services section */
+.services {
+    padding: 40px;
+    background-color: #f5f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title styling */
+  .services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  
+  /* Flex container for the service boxes */
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual service cards */
+  .service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-basis: calc(33.333% - 20px); /* 3 cards per row with a gap of 20px */
+    max-width: calc(33.333% - 20px);  /* Ensures the width doesn't exceed the flex basis */
+    height: 100px; /* Adjust the height of the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .service-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Headings inside service boxes */
+  .service-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+     color: #007bff;
+  }
+  
+  /* Description inside service boxes */
+  .service-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1024px) {
+    .service-box {
+      flex-basis: calc(50% - 20px); /* 2 cards per row for medium screens */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .service-box {
+      flex-basis: 100%; /* 1 card per row for small screens */
+      max-width: 100%;
+    }
+  }
+  
+
+  

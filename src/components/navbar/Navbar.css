@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    height: 80px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    color: rgb(48, 43, 41);
+  }
+  
+  .navbar-logo i {
+    margin-right: 8px;
+    font-size: 40px;
+  }
+  
+  .navbar-logo span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .purchase-button{
+    background-color:#ff4d4d ;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }
+  
